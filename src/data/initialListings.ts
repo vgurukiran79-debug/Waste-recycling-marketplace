@@ -1,0 +1,108 @@
+import { Listing } from '../types';
+
+export const INITIAL_LISTINGS: Listing[] = [
+  {
+    id: 'demo-1',
+    title: 'Clean Corrugated Cardboard Bales',
+    category: 'paper',
+    quantity: '120 kg (Flattened)',
+    location: 'North Campus Logistics Yard',
+    price: '$18 total (or free pickup)',
+    description: 'Dry double-wall packing cartons from university delivery shipments. Bundled securely with hemp twine, zero plastic tape residue.',
+    condition: 'Clean & Dry',
+    contactPerson: 'Campus Logistics Unit',
+    isDemo: true,
+    createdAt: Date.now() - 1000 * 60 * 60 * 6, // 6 hours ago
+  },
+  {
+    id: 'demo-2',
+    title: 'Sorted HDPE Milk & Juice Jugs',
+    category: 'plastic',
+    quantity: '45 kg (Crushed)',
+    location: 'South Dining Recycling Bay',
+    price: '$12 total',
+    description: 'Triple-rinsed food-grade HDPE bottles (#2 polymer). Caps detached and sorted in dedicated crates, ready for granulator shredding.',
+    condition: 'Rinsed & Sorted',
+    contactPerson: 'Eco-Dining Student Volunteer',
+    isDemo: true,
+    createdAt: Date.now() - 1000 * 60 * 60 * 18, // 18 hours ago
+  },
+  {
+    id: 'demo-3',
+    title: 'Clean Aluminium Beverage Cans',
+    category: 'metal',
+    quantity: '60 kg (Compacted)',
+    location: 'Community Depot, Bay 2',
+    price: '$0.85 / kg',
+    description: 'Crushed aluminium soda and seltzer cans. Magnetic test verified 100% aluminium scrap with no steel contamination.',
+    condition: 'Compacted & Tested',
+    contactPerson: 'Community Depot Volunteer',
+    isDemo: true,
+    createdAt: Date.now() - 1000 * 60 * 60 * 24, // 1 day ago
+  },
+  {
+    id: 'demo-4',
+    title: 'Lab Computer Towers & Circuit Boards',
+    category: 'ewaste',
+    quantity: '14 PC towers + 10 boards',
+    location: 'Engineering Hall B-12',
+    price: '$35 total lot',
+    description: 'Decommissioned computer systems from university robotics lab. Storage drives sanitized and removed. Intact copper heatsinks, gold-contact RAM, and power supplies.',
+    condition: 'Storage Drives Removed',
+    contactPerson: 'Robotics Lab Technician',
+    isDemo: true,
+    createdAt: Date.now() - 1000 * 60 * 60 * 30, // 30 hours ago
+  },
+  {
+    id: 'demo-5',
+    title: 'Shredded Document Paper & Kraft Bags',
+    category: 'paper',
+    quantity: '85 kg (Baled)',
+    location: 'Administration Central Depot',
+    price: 'Free / Community Pickup',
+    description: 'Confidential cross-cut shredded white bond paper and clean craft shipping sacks. Perfect for packaging fill, paper-making or composting.',
+    condition: 'Cross-cut Dry',
+    contactPerson: 'Facilities Archive Desk',
+    isDemo: true,
+    createdAt: Date.now() - 1000 * 60 * 60 * 48, // 2 days ago
+  },
+  {
+    id: 'demo-6',
+    title: 'Clear PET Flakes & Thermoform Trays',
+    category: 'plastic',
+    quantity: '35 kg',
+    location: 'Materials Fabrication Lab',
+    price: '$10 total',
+    description: 'Clean clear PET (#1) cutoffs and thermoform offcuts from vacuum molding design assignments. Uncontaminated and dry.',
+    condition: 'Clean Offcuts',
+    contactPerson: 'Design Studio Assistant',
+    isDemo: true,
+    createdAt: Date.now() - 1000 * 60 * 60 * 56, // ~2 days ago
+  },
+  {
+    id: 'demo-7',
+    title: 'Copper Wiring Cutoffs & Brass Fittings',
+    category: 'metal',
+    quantity: '18 kg',
+    location: 'Trade Skills Workshop Dock',
+    price: '$4.20 / kg',
+    description: 'Stripped copper wire sections and obsolete brass compression plumbing valves from vocational class training exercises.',
+    condition: 'Sorted & Stripped',
+    contactPerson: 'Vocational Workshop Steward',
+    isDemo: true,
+    createdAt: Date.now() - 1000 * 60 * 60 * 72, // 3 days ago
+  },
+  {
+    id: 'demo-8',
+    title: 'Monitors, Power Bricks & Cable Harnesses',
+    category: 'ewaste',
+    quantity: '8 displays + 25 cables',
+    location: 'IT Services Staging Room 4',
+    price: 'Free / Pickup Only',
+    description: 'Assorted non-functioning LCD computer monitors, heavy copper-core AC power cords, and unstripped VGA/HDMI cables for raw copper recovery.',
+    condition: 'Obsolete Hardware',
+    contactPerson: 'Campus IT Recycling Lead',
+    isDemo: true,
+    createdAt: Date.now() - 1000 * 60 * 60 * 90, // ~4 days ago
+  },
+];

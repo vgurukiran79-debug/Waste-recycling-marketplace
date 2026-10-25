@@ -1,0 +1,6 @@
+{
+  "name": "Waste Recycling Marketplace",
+  "description": "Connect recyclable waste with people who can reuse, collect or recycle it. A college PBL project.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
